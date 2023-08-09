@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScratchPad.UnitTests", "ScratchPad.UnitTests\ScratchPad.UnitTests.csproj", "{D856CABD-CF1E-48FB-AEE4-7E4F4899FF35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scratchpad.Console", "ScratchPad.Console\Scratchpad.Console.csproj", "{F45829A0-CA42-4A10-8BD2-EC5B78F28C54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D856CABD-CF1E-48FB-AEE4-7E4F4899FF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D856CABD-CF1E-48FB-AEE4-7E4F4899FF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D856CABD-CF1E-48FB-AEE4-7E4F4899FF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D856CABD-CF1E-48FB-AEE4-7E4F4899FF35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45829A0-CA42-4A10-8BD2-EC5B78F28C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45829A0-CA42-4A10-8BD2-EC5B78F28C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45829A0-CA42-4A10-8BD2-EC5B78F28C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45829A0-CA42-4A10-8BD2-EC5B78F28C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
