@@ -1,4 +1,4 @@
-namespace ScratchPad.UnitTests;
+namespace ScratchPad.Tests;
 
 using Solution;
 
