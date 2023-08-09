@@ -1,7 +1,7 @@
 namespace Solution;
 
 public class Solution {
-    public static void TestMe()
+    public static string TestMe()
     {
         return "yay";
     }
